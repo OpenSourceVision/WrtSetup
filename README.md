@@ -43,7 +43,7 @@ luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-package-manager-zh-cn op
 
 把旁路由脚本复制到 **“首次启动时运行的脚本（uci-defaults）”**：
 
-- **旁路由**：`OpenWrt_Bypass.sh` [直达脚本](https://raw.githubusercontent.com/OpenSourceVision/OpenWrt/refs/heads/main/OpenWrt_Bypass-25.12.sh)
+- **旁路由**：`OpenWrt_Bypass.sh` [直达脚本](https://raw.githubusercontent.com/OpenSourceVision/OpenWrt/refs/heads/main/Bypass-25.12.sh)
 
 #### 如图所示：
 
@@ -92,22 +92,4 @@ luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-package-manager-zh-cn op
 - SSH：`ssh root@192.168.110.110`
 - 默认无密码，首次登录需设置
 
-### 注意事项
 
-- 首次启动后建议重启
-- 务必设置管理员密码
-- 旁路由不要接上级路由的 WAN 口，只接 LAN 口
-- 旁路由与上级路由不要同时开 DHCP
-
-### 验证
-
-```bash
-# 网关与 NAT
-uci get firewall.@zone[0].masq
-
-# 单臂参数（都应为 0）
-sysctl net.ipv4.conf.all.send_redirects net.ipv4.conf.all.accept_redirects net.ipv4.conf.all.rp_filter
-
-# 客户端流量是否真的经过旁路由（看收包在增长）
-ip -s link show br-lan
-```
