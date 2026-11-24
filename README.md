@@ -34,17 +34,13 @@ uci set network.lan.gateway='上级网关IP'
 luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn openssh-sftp-server curl wget-ssl nano htop iperf3
 ```
 
-**ImmortalWrt 系统必装软件：**【无 Docker】
+**ImmortalWrt 系统必装软件：**
 
 ```
-luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn openssh-sftp-server curl wget-ssl nano htop iperf3 luci-theme-argon luci-app-diskman luci-i18n-diskman-zh-cn luci-app-ttyd
+luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-package-manager-zh-cn openssh-sftp-server curl wget-ssl nano htop iperf3 luci-theme-argon luci-app-diskman luci-i18n-diskman-zh-cn luci-app-ttyd luci-i18n-ttyd-zh-cn
 ```
 
-**ImmortalWrt 系统必装软件：**【有 Docker】
 
-```
-luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn openssh-sftp-server curl wget-ssl nano htop iperf3 luci-theme-argon luci-app-diskman luci-i18n-diskman-zh-cn docker dockerd docker-compose luci-lib-docker luci-app-dockerman luci-i18n-dockerman-zh-cn luci-app-ttyd
-```
 
 #### 如图所示：
 
