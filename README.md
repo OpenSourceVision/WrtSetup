@@ -1,4 +1,4 @@
-# OpenWrt / ImmortalWrt 25.12 旁路由配置指南
+# ImmortalWrt 25.12 旁路由配置指南
 
 ## 概述
 
@@ -19,7 +19,6 @@ uci set network.lan.gateway='上级网关IP'
 
 ### 1. 访问
 
-- **OpenWrt**: [点击访问](https://firmware-selector.openwrt.org/)
 - **ImmortalWrt**: [点击访问](https://firmware-selector.immortalwrt.org/)
 
 ### 2. 选择设备版本
@@ -27,12 +26,6 @@ uci set network.lan.gateway='上级网关IP'
 输入设备型号，选择自己想要的版本。
 
 ### 3. 添加预装软件包
-
-**OpenWrt 系统必装软件：**
-
-```
-luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn openssh-sftp-server curl wget-ssl nano htop iperf3
-```
 
 **ImmortalWrt 系统必装软件：**
 
