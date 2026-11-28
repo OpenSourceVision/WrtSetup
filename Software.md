@@ -3,7 +3,12 @@
 ImmortalWrt 25.12：
 
 ```
-luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-package-manager-zh-cn openssh-sftp-server curl wget-ssl nano htop iperf3 luci-theme-argon luci-app-diskman luci-i18n-diskman-zh-cn luci-app-ttyd luci-i18n-ttyd-zh-cn kmod-nft-queue kmod-nfnetlink-queue dnsmasq-full kmod-tun kmod-nft-tproxy kmod-nft-socket kmod-nft-nat ip-full ipset kmod-inet-diag ca-bundle bash coreutils-nohup block-mount kmod-fs-ext4 e2fsprogs kmod-fs-ntfs3 kmod-fs-exfat kmod-usb-storage smartmontools tcpdump bind-dig ethtool unzip tar irqbalance kmod-tcp-bbr
+luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-package-manager-zh-cn openssh-sftp-server
+curl wget-ssl nano htop iperf3 luci-theme-argon luci-app-diskman luci-i18n-diskman-zh-cn luci-app-ttyd
+luci-i18n-ttyd-zh-cn kmod-nft-queue kmod-nfnetlink-queue dnsmasq-full kmod-tun kmod-nft-tproxy
+kmod-nft-socket kmod-nft-nat ip-full ipset kmod-inet-diag ca-bundle bash coreutils-nohup block-mount
+kmod-fs-ext4 e2fsprogs kmod-fs-ntfs3 kmod-fs-exfat kmod-usb-storage smartmontools tcpdump
+bind-dig ethtool unzip tar irqbalance kmod-tcp-bbr
 ```
 
 ## 各包用途
