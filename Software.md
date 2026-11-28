@@ -3,7 +3,7 @@
 ImmortalWrt 25.12：
 
 ```
-luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-package-manager-zh-cn openssh-sftp-server curl wget-ssl nano htop iperf3 luci-theme-argon luci-app-diskman luci-i18n-diskman-zh-cn luci-app-ttyd luci-i18n-ttyd-zh-cn
+luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-package-manager-zh-cn openssh-sftp-server curl wget-ssl nano htop iperf3 luci-theme-argon luci-app-diskman luci-i18n-diskman-zh-cn luci-app-ttyd luci-i18n-ttyd-zh-cn kmod-nft-queue kmod-nfnetlink-queue
 ```
 
 ## 各包用途
